@@ -1,0 +1,218 @@
+/* ----------------------------------------PHẦN SOÁT LỖI ----------------------------------------*/
+span#name-error {
+  position: absolute;
+    top: 50px;
+  right: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+span#name-error div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: seagreen;
+  top: -40px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+span#name-error div::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg) translateX(3px);
+  background: #fff;
+}
+
+span#name-error div::after {
+  content: "";
+  right: 10px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+  height: 9px;
+  transform: rotate(135deg) translateX(8px);
+  background: #fff;
+}
+/* ---------------------------------------phone lỗi------------------------------------ */
+span#phone-error {
+  position: absolute;
+    top: 50px;
+  right: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+span#phone-error div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: seagreen;
+  top: -40px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+span#phone-error div::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg) translateX(3px);
+  background: #fff;
+}
+
+span#phone-error div::after {
+  content: "";
+  right: 10px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+  height: 9px;
+  transform: rotate(135deg) translateX(8px);
+  background: #fff;
+}
+/*----------------------------------------email lỗi--------------------------------------- */
+span#email-error {
+  position: absolute;
+    top: 50px;
+  right: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+span#email-error div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: seagreen;
+  top: -40px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+span#email-error div::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg) translateX(3px);
+  background: #fff;
+}
+
+span#email-error div::after {
+  content: "";
+  right: 10px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+  height: 9px;
+  transform: rotate(135deg) translateX(8px);
+  background: #fff;
+}
+/* ----------------------------------------pass lỗi --------------------------------------- */
+span#pass-error {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+span#pass-error div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: seagreen;
+  top: -40px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+span#pass-error div::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg) translateX(3px);
+  background: #fff;
+}
+
+span#pass-error div::after {
+  content: "";
+  right: 10px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+  height: 9px;
+  transform: rotate(135deg) translateX(8px);
+  background: #fff;
+}
+/* ----------------------------------------confirm pass lỗi---------------------------------------- */
+#cfpass-error {
+  position: absolute;
+  bottom: -20px;
+  font-size: 12px;
+  right: 5px;
+  /* color: red; */
+  /* display: none; */
+}
+
+span#cfpass-error {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 12px;
+  color: red;
+}
+
+span#cfpass-error div {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: seagreen;
+  top: -40px;
+  right: 5px;
+  border-radius: 50%;
+}
+
+span#cfpass-error div::before {
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  width: 3px;
+  height: 16px;
+  transform: rotate(45deg) translateX(3px);
+  background: #fff;
+}
+
+span#cfpass-error div::after {
+  content: "";
+  right: 10px;
+  position: absolute;
+  top: 6px;
+  width: 3px;
+  height: 9px;
+  transform: rotate(135deg) translateX(8px);
+  background: #fff;
+}
+
+/* ----------------------------------------nút nhấn kiểm tra lại toàn bộ ---------------------------------------- */
+span#submit-error {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: red;
+}

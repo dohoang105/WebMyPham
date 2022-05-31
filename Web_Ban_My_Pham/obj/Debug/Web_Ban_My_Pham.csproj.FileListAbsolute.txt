@@ -1,0 +1,216 @@
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.dll.config
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.pdb
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.exe
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.exe.config
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.rsp
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.exe
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.exe.config
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.rsp
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.AppContext.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Collections.Immutable.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Console.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Globalization.Calendars.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.Compression.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.FileSystem.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Net.Http.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Net.Sockets.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Reflection.Metadata.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.ValueTuple.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XPath.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.exe
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.exe.config
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.rsp
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\VBCSCompiler.exe
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\VBCSCompiler.exe.config
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Antlr3.Runtime.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.SqlServer.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Google.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Web.Infrastructure.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Newtonsoft.Json.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Owin.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Helpers.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Mvc.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Optimization.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Razor.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Deployment.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Razor.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\WebGrease.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Helpers.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Mvc.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Optimization.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Razor.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Deployment.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Razor.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Newtonsoft.Json.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Antlr3.Runtime.pdb
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.SqlServer.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Google.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.AssemblyReference.cache
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.CoreCompileInputs.cache
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.CopyComplete
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.dll
+F:\Đồ án web\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.pdb
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.dll.config
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Web_Ban_My_Pham.pdb
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.exe
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.exe.config
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csc.rsp
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.exe
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.exe.config
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\csi.rsp
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.AppContext.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Collections.Immutable.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Console.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Globalization.Calendars.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.Compression.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.FileSystem.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Net.Http.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Net.Sockets.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Reflection.Metadata.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.ValueTuple.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XPath.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.exe
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.exe.config
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\vbc.rsp
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\VBCSCompiler.exe
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\roslyn\VBCSCompiler.exe.config
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Antlr3.Runtime.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.SqlServer.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Google.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Web.Infrastructure.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Newtonsoft.Json.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Owin.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Helpers.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Mvc.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Optimization.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Razor.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Deployment.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Razor.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\WebGrease.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Helpers.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Mvc.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Optimization.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.Razor.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Deployment.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\System.Web.WebPages.Razor.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Newtonsoft.Json.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Antlr3.Runtime.pdb
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\EntityFramework.SqlServer.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Google.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.AssemblyReference.cache
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.CoreCompileInputs.cache
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.csproj.CopyComplete
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.dll
+D:\MON HOC\LTWeb\Web_Ban_My_Pham\Web_Ban_My_Pham\obj\Debug\Web_Ban_My_Pham.pdb

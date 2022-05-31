@@ -1,0 +1,689 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THN beauty - Mang sự quyến rũ đến với bạn</title>
+    <link rel="icon" href="~/icons/THM.ico" />
+    <link rel="stylesheet"href="~/Content/layout/home.css">
+    <link rel="stylesheet" href="~/Content/layout/login.css">
+    <link rel="stylesheet" href="~/Content/layout/checkLogin.css">
+    <link rel="stylesheet" href="~/Content/layout/search.css">
+    <link rel="stylesheet" href="~/Content/layout/headerMenu.css">
+    <link href="~/Content/layout/footer.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="container-header">
+            <!-- thẻ logo -->
+            <div class="logo"><img id="logo" src="~/images/THN-LOGO.png" /></div>
+
+            <!-- liên hệ -->
+            <div class="contact">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-phone-volume"></i></i>
+                            <span>19001234</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                            <span>twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- thẻ tìm kiếm -->
+            <div class="search_bar">
+                <div class="search">
+                    <div class="icon" onclick="document.getElementById('mySearch').value=''"></div>
+                    <div class="input">
+                        <input type="text" placeholder="Tìm Kiếm" id="mySearch">
+                    </div>
+                    <span class="clear" onclick="document.getElementById('mySearch').value=''"></span>
+                </div>
+            </div>
+            <!-- thẻ giỏ hàng -->
+            <div class="cart">
+                <a href="#">
+                    <ion-icon name="bag-outline"></ion-icon>
+                    <span>Giỏ hàng</span>
+
+                </a>
+            </div>
+            <!-- Tips chăm sóc da -->
+            <div class="tips">
+                Tips chăm sóc da
+            </div>
+            <!-- ngôn ngữ -->
+            <div class="language">Ngôn ngữ</div>
+            <!-- tài khoản -->
+            <div class="account">
+                <a href="#" class="login">
+                    <span>Đăng kí/Đăng nhập</span>
+                </a>
+            </div>
+            <!----------------------------------Phần Đăng Nhập----------------------------->
+            <div class="toggleModal Sign-in ">
+                <!--Modal header-->
+                <div class="Modal_Header ">
+                    <h2>Đăng Nhập</h2>
+                    <div class="btn_close ">
+                        <span></span>
+                    </div>
+                </div>
+                <!--Modal body-->
+                <div class="Modal_Body ">
+                    <div class="inputBox">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email đăng nhập" name="ip_username" onclick="validEmail()">
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="Password" placeholder="Mật Khẩu" name="ip_password">
+                        <div class="show-hide-pass"></div>
+                    </div>
+                    <div class="forgot-password">
+                        <a href="#" target="_blank">Quên mật khẩu?</a>
+                    </div>
+                    <div class="btn_login ">
+                        <a href="#">Đăng Nhập</a>
+                    </div>
+                    <div class="notMember ">
+                        <h4>
+                            Bạn chưa là thành viên?
+                        </h4>
+                        <a href="#" class="signUp">Đăng Ký ngay!</a>
+                    </div>
+                </div>
+
+                <!--Modal footer-->
+                <div class="Modal_footer">
+                    <h3>Hoặc đăng nhập bằng tài khoản</h3>
+                    <div class="loginwith">
+                        <div class="loginFace">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>facebook</span>
+                            </a>
+                        </div>
+                        <div class="loginGoogle">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-google-plus-g"></i>
+                                <span>Google</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------Phần Đăng Kí----------------------------->
+            <div class="toggleModal Sign-up">
+                <!--Modal header-->
+                <div class="Modal_Header">
+                    <h2>Đăng Ký</h2>
+                    <div class="btn_close">
+                        <span></span>
+                    </div>
+                </div>
+                <!--Modal body-->
+                <div class="Modal_Body">
+                    <div class="inputBox" id="inputName">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" name="ip_username" id="contact-name" onkeyup="validateName()">
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="inputBox" id="inputPhone">
+                        <i class="fas fa-address-book"></i>
+                        <input type="phone" placeholder="Số điện thoại" id="phone" name="ip_phone" onkeyup="validatePhone()">
+                        <span id="phone-error"></span>
+                    </div>
+                    <div class="inputBox" id="inputEmail">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Email đăng nhập" name="ip_email" id="email" onkeyup="validateEmail()">
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" class="Password" placeholder="Mật khẩu" name="ip_password">
+                        <div class="show-hide-pass"></div>
+                        <span id="pass-error"></span>
+                    </div>
+                    <div class="inputBox">
+                        <i class="fas fa-unlock"></i>
+                        <input type="password" class="Password" placeholder="Nhập lại mật khẩu" name="ip_cfpassword">
+                        <div class="show-hide-pass"></div>
+                        <span id="cfpass-error"></span>
+                    </div>
+                    <div class="btn_login" onclick="return validateSubmit()">
+                        <a href="#">Đăng Ký</a>
+                    </div>
+                </div>
+                <!--Modal footer-->
+                <div class="Modal_footer">
+                    <div class="have-account">
+                        <h4 class="hav-acc">Đã có tài khoản?</h4>
+                        <a href="#" class="login-form">Bấm để đăng nhập</a>
+                    </div>
+                    <h3>Hoặc đăng ký bằng tài khoản</h3>
+                    <div class="loginwith">
+                        <div class="loginFace">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>facebook</span>
+                            </a>
+                        </div>
+                        <div class="loginGoogle">
+
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-google-plus-g"></i>
+                                <span>Google</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End modal footer -->
+            </div>
+            <!-- End phần đăng kí -->
+        </div>
+        <!--  -->
+    </div>
+    <!-- thanh điều hướng -->
+    <div class="navbar">
+        <nav>
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" class="menu-link">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Sản phẩm mới</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Trang điểm</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item">
+                            <h4>Trang Điểm Mắt - Mi</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem lót mắt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn mắt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Chì kẻ mày - Kẻ mắt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Mascara - Fixer</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dưỡng dài mi</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Trang Điểm Mặt</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn nước</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem lót</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn nền</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem nền</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn phủ</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn nén</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem BB - CC</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem che khuyết điểm</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Má hồng Blusher</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phấn tạo khối - Highlighter</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Xịt khóa nền</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Dụng Cụ Trang Điểm</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Cọ - mút - kẹp mi</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Mi giả</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- kết thúc trang điểm -->
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Dưỡng da</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item">
+                            <h4>Các Vấn Đề Của Da</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem trị mụn</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dưỡng trắng</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Se khít lỗ chân lông</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Trị thâm nám</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Chống nhăn - Chống lão hóa</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Phục hồi - Cấp ẩm</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Làm dịu da</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Da tổng hợp</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Da dầu</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Da nhạy cảm</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Các Bước Dưỡng Da</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Tẩy trang</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa rửa mặt - Face wash</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Tẩy tế bào chết - Face scrub</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Mặt nạ</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Nước hoa hồng - Tonner</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa dưỡng - Lotion/Emulsion</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Serum, Essence, Tinh chất dưỡng</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem dưỡng mắt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem dưỡng da</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Xịt khoáng - Mist</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem chống nắng</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Dưỡng Thể</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dưỡng tay - Hand care</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa dưỡng thể Body Lotion</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa tắm Body Wash</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem dưỡng body</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem chống nắng body</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Tẩy da chết toàn thân</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kem tẩy lông</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Trị mụn lưng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Dưỡng môi</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item ">
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Son thỏi - Lipstick</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Son lì - Son xăm - Son bóng</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Son kem - Son tint</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Son dưỡng môi - Tẩy da chết môi</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Chăm sóc tóc</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item">
+                            <h4>Dưỡng Tóc</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Tinh chất dưỡng tóc - Nuôi dưỡng tóc</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Kích mọc tóc</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Trị gàu - Làm sạch gàu</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Ủ tóc - Nhuộm tóc</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dầu gội - Dầu xã</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dầu gội khô</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Dưỡng Móng</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sơn móng tay</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dưỡng móng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Nước hoa</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Thực phẩm chức năng</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Phái nam</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item">
+                            <h4>Dưỡng Da Mặt</h4>
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa rửa mặt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Nước cân bằng</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Sữa dưỡng ẩm</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Tinh chất chăm sóc da</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-child-item">
+                            <h4>Chăm Sóc Tóc Và Cơ Thể</h4>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Phụ kiện</a>
+                    <div class="menu-child">
+                        <div class="menu-child-item">
+                            <ul class="menu-child-list">
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dụng cụ lấy mụn</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Dụng cụ rửa mặt</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Bông tẩy trang</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-angle-right"></i>
+                                    <a href="#">Giấy thấm dầu</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Bán chạy</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" class="menu-link">Giảm giá</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+    <hr />
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3 class="title">THÔNG TIN LIÊN HỆ</h3>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="item"><b>Địa chỉ: </b><a href="#">475A Điện Biên Phủ, phường 25, quận Bình Thạnh, TP.HCM</a></li>
+                            <li class="item"><b>Thời gian hỗ trợ chăm sóc khách hàng:</b></li>
+                            <li class="item">Thứ 2 đến Chủ Nhật | Từ 8h00 - 21h00</li>
+                            <li class="item"><b>Hotline: </b>1900 1234</li>
+                        </ul>
+                    </div>
+                    <div class="logo-footer-col-1">
+                        <!-- <img src="~/images/boCongThuong.jpg" width="113px" height="43px" alt="boCongThuong.jpg"> -->
+                    </div>
+                </div>
+                <!-- Logo footer -->
+                <div class="footer-col-2">
+                    <h3 class="title">VỀ CHÚNG TÔI</h3>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="item"><a href="#">Chính sách bảo mật</a></li>
+                            <li class="item"><a href="#">Điều khoản sử dụng</a></li>
+                            <li class="item"><a href="#">Liên hệ</a></li>
+                            <li class="item"><a href="#">Tuyển dụng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Useful Links -->
+                <div class="footer-col-3">
+                    <h3 class="title">CHĂM SÓC KHÁCH HÀNG</h3>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="item"><a href="#">Đăng ký tài khoản thành viên</a></li>
+                            <li class="item"><a href="#">Hướng dẫn mua hàng online</a></li>
+                            <li class="item"><a href="#">Chính sách đổi hàng</a></li>
+                            <li class="item"><a href="#">Chính sách khách hàng thân thiết</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Follow us -->
+                <div class="footer-col-4">
+                    <!-- KẾT NỐI VỚI CHÚNG TÔI -->
+                    <h3 class="title">KẾT NỐI VỚI CHÚNG TÔI</h3>
+                    <ul class="footer-col-4-list">
+                        <li><a href="https://www.facebook.com/THNbeauty-100951312639879" target="_blank"><img src="../images/fb.png" width="24px" height="24px" alt="fb.png"></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><img src="../images/insta.png" width="24px" height="24px" alt="insta.png"></a></li>
+                        <li><a href="https://www.youtube.com" target="_blank"><img src="../images/youtube.png" width="24px" height="24px" alt="youtube.png"></a></li>
+                        <li><a href="http://zalo.me" target="_blank"><img src="../images/zalo.png" width="24px" height="24px" alt="zalo.png"></a></li>
+                    </ul>
+                    <!-- PHƯƠNG THỨC THANH TOÁN -->
+                    <h3 class="title">PHƯƠNG THỨC THANH TOÁN</h3>
+                    <ul class="footer-col-4-list">
+                        <li><a href="#"><img src="../images/visa.png" width="43px" height="24px" alt="visa.png"></a></li>
+                        <li><a href="#"><img src="../images/mastercard.png" width="39px" height="24px" alt="mastercard.png"></a></li>
+                        <li><a href="#"><img src="../images/jcb.png" width="31px" height="24px" alt="jcb.png"></a></li>
+                        <li><a href="#"><img src="../images/cash.png" width="39px" height="24px" alt="cash.png"></a></li>
+                    </ul>
+                    <!-- <div class="clear"></div> -->
+                    <!-- DỊCH VỤ GIAO HÀNG -->
+                    <h3 class="title">DỊCH VỤ GIAO HÀNG</h3>
+                    <ul class="footer-col-4-list">
+                        <li><a href="#"><img src="../images/GHTK.png" width="" height="34px" alt="GHTK.png"></a></li>
+                        <li><a href="#"><img src="../images/GHN.jpg" width="60px" height="34px" alt="GHN.jpg"></a></li>
+                        <li><a href="#"><img src="../images/VNPost.jpg" width="50px" height="34px" alt="VNPost.jpg"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Chân footer -->
+            <hr>
+            <p class="copyright">	&copy;2022 Design by team <a href="#">THN Beauty</a></p>
+        </div>
+    </div>
+    <!-- Hết footer -->
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.0/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.0/shortcuts/sticky-elements/waypoints-sticky.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar').waypoint('sticky')
+        })
+    </script>
+    <script src="~/Scripts/layout/home.js"></script>
+    <script src="~/Scripts/layout/checkSignUpIn.js"></script>
+
+</body>
+</html>

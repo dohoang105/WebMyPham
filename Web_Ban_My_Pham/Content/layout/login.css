@@ -1,0 +1,264 @@
+:root{
+  --main_color: #F3B0c2;
+  --span-color: rgb(237, 20, 91);
+}
+/* Đăng Nhập */
+.toggleModal {
+  position: fixed;
+  left: 50%;
+  top: -1000px;
+  transform: translateX(-50%) scale(1.25);
+  background: #fff;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  transition: top 0ms ease-in-out 200ms,
+             opacity 200ms ease-in-out 0ms,
+             transform 200ms ease-in-out 0ms;
+  opacity: 0;
+  z-index: 9999;
+}
+.toggleModal.Sign-in.active {
+  position: fixed;
+  left: 50%;
+  top: 100px;
+  opacity: 1;
+   transform: translateX(-50%) scale(1);
+  transition: top 0ms ease-in-out 0ms,
+   opacity 200ms ease-in-out 0ms,
+   transform 200ms ease-in-out 0ms;
+}
+.toggleModal.Sign-up.active {
+  position: fixed;
+  left: 50%;
+  z-index: 9999;
+  top: 10px;
+  opacity: 1;
+  transform: translateX(-50%) scale(1);
+  transition: top 0ms ease-in-out 0ms, opacity 200ms ease-in-out 0ms, transform 200ms ease-in-out 0ms;
+}
+/* nút đóng */
+.toggleModal.Sign-in .btn_close {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    top: -45px;
+    right: -138px;
+    cursor: pointer;
+    background: #535353;
+    border-radius: 50%
+}
+.toggleModal.Sign-up .btn_close {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: -35px;
+  right: -162px;
+  cursor: pointer;
+  background: #535353;
+  border-radius: 50%
+}
+.toggleModal.Sign-in .btn_close span {
+    position: absolute;
+    width: 15px;
+    height: 3px;
+    transform: rotate(45deg);
+    background: #fff;
+    top: 45%;
+    left: 5px;
+    font-size: 25px;
+}
+.toggleModal.Sign-up .btn_close span {
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  transform: rotate(45deg);
+  background: #fff;
+  top: 45%;
+  left: 6px;
+  font-size: 25px;
+
+}
+ .btn_close span:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  transform: rotate(90deg);
+  background: #fff;
+} 
+/* header */
+.Modal_Header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal_Header h2 {
+  line-height: 80px;
+  font-size: 40px;
+
+}
+
+
+
+/* body */
+.Modal_Body {
+  width: 100%;
+  display: flex;
+  padding: 0 50px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Modal_Body .inputBox {
+  position: relative;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 15px;
+}
+
+.inputBox input {
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  font-size: 20px;
+  background: none; 
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.inputBox i {
+  font-size: 20px;
+  color: var(--span-color);
+}
+
+.forgot-password {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: var(--span-color);
+}
+
+.btn_login {
+  margin-top: 10px;
+  width: 100%;
+  height: 50px;
+  background: #EA4492;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn_login a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.notMember {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notMember a {
+  text-decoration: none;
+  color: var(--span-color);
+}
+
+ /* footer  */
+.Modal_footer {
+  margin-top: 10px;
+  display: flex;
+  padding: 0 45px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Modal_footer .have-account{
+  display: flex;
+  color: rgb(167, 159, 159);
+  margin: 5px 0;
+}
+.have-account a{
+  color: var(--span-color);
+  text-decoration: none;
+}
+.loginwith {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.Modal_footer h3 {
+  text-align: center;
+  color: #686161;
+}
+
+.loginwith a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  /* line-height: 46px; */
+  font-size: 17px;
+}
+.loginwith span{
+  line-height: 45px;
+}
+.loginwith i {
+  margin-right: 5px;
+}
+
+.loginwith .loginFace {
+  top: 70px;
+  width: 175px;
+  height: 46px;
+  background: #4267b2;
+  border-radius: 10px;
+  left: 60px;
+}
+
+.loginwith .loginGoogle {
+  width: 175px;
+  height: 46px;
+  top: 70px;
+  right: 60px;
+  background: #f34a38;
+  border-radius: 10px;
+} 
+
+/* ẩn hiện pass */
+.show-hide-pass {
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  width: 30px;
+  height: 30px;
+  background: url("../../icons/show.jpg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+    .show-hide-pass.show {
+        background: url('../../icons/hide.jpg');
+        background-size: cover;
+        cursor: pointer;
+    }

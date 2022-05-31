@@ -1,0 +1,79 @@
+.navbar {
+  padding: 0 40px;
+  background-color: var(--main_color);
+}
+.navbar ion-icon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  top: 6px;
+
+}
+nav{
+  position: relative;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu li{
+  list-style: none;
+}
+.menu a{
+  text-decoration: none;
+}
+/* .menu-item.one-list{
+  position: relative;
+} */
+.menu-link{
+   display: block;
+   color: #fff;
+   font-weight: bold;
+   padding: 0 10px;
+   line-height: 50px;
+}
+.menu-child{
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  padding: 20px;
+  background: #fff;
+  display:flex;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+
+}
+.menu-item:hover .menu-child{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+.menu-child-item{
+  width: 33.333333%;
+}
+
+.menu-child-item h4{
+  font-size: 20px;
+  padding: 5px;
+  margin-right: 10px;
+  text-align: center;
+  color: #fff;
+  background: var(--main_color);
+}
+.menu-child-list li{
+  padding: 5px;
+}
+.menu-child-list li a{
+  color: black;
+}
+.menu-child-list li a:hover{
+  
+  color: var(--span-color);
+}
+.menu-child-list i{
+   color: var(--span-color);
+}
